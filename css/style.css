@@ -51,3 +51,54 @@ header{
     color: var(--texto-secundario);
     font-size: 18px;
 }
+
+/* Seccion principal */
+.hero{
+    background-color: var(--fondo-oscuro);
+    padding: 80px 0;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-text{
+    flex: 1;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--texto-primario);
+    margin-bottom: 20px;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: var(--texto-secundario);
+    margin-bottom: 20px;
+}
+
+.boton-primario{
+    display: inline-block;
+    background-color: var(--azul-primario);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img{
+    max-width: 100%;
+    border-radius: 8px;
+}
